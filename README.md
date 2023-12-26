@@ -14,7 +14,7 @@ This flutter app demonstrate a very simple bookstore app with the four basic ope
 # CRUD Operations
 
 CREATE
-
+'''
 class AddBookScreen extends StatelessWidget {
   final TextEditingController _titleController = TextEditingController();
   final TextEditingController _authorController = TextEditingController();
@@ -25,8 +25,6 @@ class AddBookScreen extends StatelessWidget {
       'author': _authorController.text,
       // Add more fields as needed
     });
-
-    // After adding the book, navigate back to the BookMenuScreen
     Navigator.pop(context);
   }
 
@@ -60,3 +58,4 @@ class AddBookScreen extends StatelessWidget {
     );
   }
 }
+'''
